@@ -5,7 +5,7 @@ int main()
     /* Binary Search is an efficient algorithm for finding a value in a sorted array.
 It divides the array in half each time, instead of checking every element like linear search. */
 
-    const int size = 6;
+    int size = 6;
     int arr[size];
     int targetValue;
 
