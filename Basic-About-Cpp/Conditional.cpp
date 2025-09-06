@@ -23,11 +23,7 @@ int main()
         cout << "The number is Odd \n";
     }
 
-    // solving leap year 
-
-    
-
-
+    // solving leap year
 
     return 0;
 }
