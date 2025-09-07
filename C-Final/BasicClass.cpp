@@ -6,7 +6,7 @@ class studentClass
 public:
     int id;
     double gpa;
-    void setValue(int x, double y)
+    studentClass(int x, double y)
     {
         id = x;
         gpa = y;
@@ -19,9 +19,10 @@ public:
 
 int main()
 {
-    studentClass Mollik;
+    // we have created a constructor which is studentClass inside the class and it is called automatically as soon as an object is initialized and passes the required fields , in this case the id and GPA
+    studentClass Mollik(26, 4.00); // => this is also known as parameterize constructor
 
-    Mollik.setValue(26, 4.00);
+    // Mollik.setValue(26, 4.00);
     Mollik.displayInfo();
 
     return 0;
