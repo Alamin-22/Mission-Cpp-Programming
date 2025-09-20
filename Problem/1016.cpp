@@ -11,7 +11,7 @@ int main()
 
     time = distance * 2;
 
-    cout << time << " minutos" << endl;
+    cout << time << " minutos" << "\n";
 
     return 0;
 }
